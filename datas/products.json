@@ -1,0 +1,315 @@
+[
+    {
+      "name": "Green Pine Tree Poster",
+      "price": 45.25,
+      "quantity": 10,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710338761/banhang/tree1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree5.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree7.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6c"
+    },
+    {
+      "name": "Blue Ocean Canvas",
+      "price": 18.67,
+      "quantity": 25,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool1.png",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool2.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool3.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6d"
+    },
+    {
+      "name": "Mountain Landscape Painting",
+      "price": 81.99,
+      "quantity": 50,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase1.png",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase2.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase3.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6e"
+    },
+    {
+      "name": "Sunset Mountain Artwork",
+      "price": 63.75,
+      "quantity": 15,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines7.jpg",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines7.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines2.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines3.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6f"
+    },
+    {
+      "name": "Bamboo Forest Print",
+      "price": 7.89,
+      "quantity": 20,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree2.png",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710338761/banhang/tree1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree8.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6c"
+    },
+    {
+      "name": "Aurora Borealis Painting",
+      "price": 37.45,
+      "quantity": 30,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool2.png",
+      "description": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool2.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool3.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool4.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6d"
+    },
+    {
+      "name": "Desert Landscape Art",
+      "price": 55.0,
+      "quantity": 40,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase2.png",
+      "description": "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase2.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase3.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase4.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6e"
+    },
+    {
+      "name": "Vintage World Map Poster",
+      "price": 92.15,
+      "quantity": 5,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines1.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines2.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines3.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6f"
+    },
+    {
+      "name": "Green Pine Tree Poster",
+      "price": 45.25,
+      "quantity": 10,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710338761/banhang/tree3.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree3.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree5.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree7.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6c"
+    },
+    {
+      "name": "Blue Ocean Canvas",
+      "price": 18.67,
+      "quantity": 25,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool3.png",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool3.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool4.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool5.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6d"
+    },
+    {
+      "name": "Mountain Landscape Painting",
+      "price": 81.99,
+      "quantity": 50,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase3.png",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase3.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase4.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase5.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6e"
+    },
+    {
+      "name": "Sunset Mountain Artwork",
+      "price": 63.75,
+      "quantity": 15,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines2.jpg",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines2.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines3.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines4.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6f"
+    },
+    {
+      "name": "Bamboo Forest Print",
+      "price": 7.89,
+      "quantity": 20,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree4.png",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree4.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710338761/banhang/tree3.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree8.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6c"
+    },
+    {
+      "name": "Aurora Borealis Painting",
+      "price": 37.45,
+      "quantity": 30,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool4.png",
+      "description": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool4.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool5.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool6.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6d"
+    },
+    {
+      "name": "Desert Landscape Art",
+      "price": 55.0,
+      "quantity": 40,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase4.png",
+      "description": "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "gallery": [
+        "image_ijklmnopqr.jpg",
+        "image_jklmnopqrs.jpg",
+        "image_klmnopqrst.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6e"
+    },
+    {
+      "name": "Vintage World Map Poster",
+      "price": 92.15,
+      "quantity": 5,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines3.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines3.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines4.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines5.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6f"
+    },
+    {
+      "name": "Green Pine Tree Poster",
+      "price": 45.25,
+      "quantity": 10,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710338761/banhang/tree5.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree5.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree7.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6c"
+    },
+    {
+      "name": "Blue Ocean Canvas",
+      "price": 18.67,
+      "quantity": 25,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool5.png",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool5.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool2.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6d"
+    },
+    {
+      "name": "Mountain Landscape Painting",
+      "price": 81.99,
+      "quantity": 50,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase5.png",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase5.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase2.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6e"
+    },
+    {
+      "name": "Sunset Mountain Artwork",
+      "price": 63.75,
+      "quantity": 15,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines4.jpg",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines4.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines5.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines6.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6f"
+    },
+    {
+      "name": "Bamboo Forest Print",
+      "price": 7.89,
+      "quantity": 20,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492592/banhang/tree6.png",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree6.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710338761/banhang/tree1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710492593/banhang/tree8.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6c"
+    },
+    {
+      "name": "Aurora Borealis Painting",
+      "price": 37.45,
+      "quantity": 30,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool6.png",
+      "description": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool2.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710778348/banhang/tool3.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6d"
+    },
+    {
+      "name": "Desert Landscape Art",
+      "price": 55.0,
+      "quantity": 40,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase1.png",
+      "description": "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase1.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase2.png",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779689/banhang/vase3.png"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6e"
+    },
+    {
+      "name": "Vintage World Map Poster",
+      "price": 92.15,
+      "quantity": 5,
+      "image": "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines5.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "gallery": [
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines5.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines6.jpg",
+        "https://res.cloudinary.com/dcb2afzz4/image/upload/v1710779596/banhang/medicines7.jpg"
+      ],
+      "category_id": "65f8677c11c6f7f26bc0cc6f"
+    }
+  ]
+  
