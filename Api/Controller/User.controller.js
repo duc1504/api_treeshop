@@ -1,6 +1,6 @@
 const User = require("../Models/User.model");
 var bcryptjs = require('bcryptjs');
-const { sendEmail } = require("../helpers/Mailer");
+const { sendEmail } = require("../../helpers/Mailer");
 
 
 // Lấy thông tin người dùng dựa trên ID
