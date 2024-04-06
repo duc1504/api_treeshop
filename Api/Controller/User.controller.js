@@ -1,5 +1,7 @@
 const User = require("../Models/User.model");
 var bcryptjs = require('bcryptjs');
+const { sendEmail } = require("../helpers/Mailer");
+
 
 // Lấy thông tin người dùng dựa trên ID
 // GET: http://localhost:6000/user/infor/:userId
@@ -29,39 +31,50 @@ module.exports.infor = async (req, res) => {
 
 // Chỉnh sửa thông tin người dùng
 // PATCH: http://localhost:6000/user/edit/:userId
+
 module.exports.edit = async (req, res) => {
   try {
     const userId = req.params.userId;
     const updates = req.body;
- 
-    if (!userId || !Object.values(updates).every((value) => value !== "")) {
-      res.status(404).json({
+
+    // Kiểm tra xem numberMobile hoặc email đã tồn tại trong cơ sở dữ liệu chưa
+    const existingUser = await User.findOne({
+      $or: [{ numberMobile: updates.numberMobile }, { email: updates.email }],
+      _id: { $ne: userId } // Đảm bảo không so sánh với chính bản ghi người dùng đang chỉnh sửa
+    });
+  
+    if (existingUser) {
+      return res.status(400).json({
         status: false,
-        message: "chưa nhập thông tin",
+        message: 'Số điện thoại hoặc email đã tồn tại trong hệ thống'
       });
-    } else {
-      // Cập nhật thông tin người dùng trong cơ sở dữ liệu
-      const result = await User.updateOne({ _id: userId }, { $set: updates });
-      // Kiểm tra xem có bản ghi nào được cập nhật không
-      if (result.nModified === 0) {
-        return res.status(404).json({
-          status: false,
-          message:
-            "Không tìm thấy người dùng hoặc không có thông tin nào được cập nhật",
-        });
-      } // Truy vấn lại thông tin người dùng từ cơ sở dữ liệu
-      const updatedUser = await User.findById(userId,'-password');
-      // Trả về thông tin người dùng đã được cập nhật
-      res.status(200).json({ status: true, user: updatedUser });
     }
+
+    // Cập nhật thông tin người dùng trong cơ sở dữ liệu
+    const result = await User.updateOne({ _id: userId }, { $set: updates });
+
+    // Kiểm tra xem có bản ghi nào được cập nhật không
+    if (result.nModified === 0) {
+      return res.status(404).json({
+        status: false,
+        message: 'Không tìm thấy người dùng hoặc không có thông tin nào được cập nhật'
+      });
+    }
+
+    // Truy vấn lại thông tin người dùng từ cơ sở dữ liệu
+    const updatedUser = await User.findById(userId, '-password');
+
+    // Trả về thông tin người dùng đã được cập nhật
+    res.status(200).json({ status: true, data: updatedUser });
   } catch (error) {
     res.status(500).json({
       status: false,
-      message: "Đã xảy ra lỗi khi chỉnh sửa thông tin người dùng",
-      error,
+      message: 'Đã xảy ra lỗi khi chỉnh sửa thông tin người dùng',
+      error
     });
   }
 };
+
 // đăng kí
 //   http://localhost:6000/user/signup
 module.exports.signup = async (req, res) => {
@@ -106,7 +119,16 @@ module.exports.signup = async (req, res) => {
     const hashPassword = await bcryptjs.hash(password, salt);
     const newUser = new User({ name, email, password:hashPassword, numberMobile });
     await newUser.save();
-    res.status(201).json({ status: true });
+    // gửi email bằng nodemailer
+    setTimeout(async () => {
+      const data = {
+        name: name,
+        email: email,
+        subject: "Cảm ơn bạn đã đăng kí",
+      }
+      await sendEmail(data);
+    },0)
+    res.status(201).json({ status: true,data:newUser });
   } catch (error) {
     res
       .status(500)
@@ -160,6 +182,8 @@ module.exports.login = async (req, res) => {
       _id: user._id,
       name: user.name,
       email: user.email,
+      avatar: user.avatar,
+      address: user.address,
       numberMobile: user.numberMobile,
       createdAt: user.createdAt,
       updatedAt: user.updatedAt,

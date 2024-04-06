@@ -4,7 +4,7 @@ const cartSchema = new mongoose.Schema({
     user_id: { type: String },
     date: { type: Date, default: Date.now },
     total: { type: Number, default: 0 },
-    status: { type: String, enum: ['pending', 'completed', 'cancelled'], default: 'pending' }
+    status: { type: String, enum: ['pending', 'completed', 'cancelled',"empty"], default: 'pending' }
 });
 
 const Cart = mongoose.model('Cart', cartSchema,'carts');

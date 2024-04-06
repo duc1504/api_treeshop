@@ -1,10 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const Category = require("../Models/Category.model");
-
+var cors = require('cors');
 // Lấy danh sách các danh mục
-//   http://localhost:6000/category
-router.get("/", async (req, res) => {
+//   http://localhost:5000/category
+router.get("/",cors(), async (req, res) => {
     try {
         // Lấy tất cả các danh mục từ cơ sở dữ liệu
         const categories = await Category.find({}, { _id: 1, name: 1 });
@@ -18,8 +18,8 @@ router.get("/", async (req, res) => {
 });
 
 // suat thong tin 1 category
-// PATCH: http://localhost:6000/category/:categoryId
-router.patch("/:categoryId", async (req, res) => {
+// PATCH: http://localhost:5000/category/edit/:categoryId
+router.patch("/edit/:categoryId", async (req, res) => {
     try {
         const categoryId = req.params.categoryId;
         const updates = req.body;
@@ -53,9 +53,22 @@ router.patch("/:categoryId", async (req, res) => {
 
 });
 
+// them 1 category
+// POST: http://localhost:5000/category
+router.post("/", async (req, res) => {
+    try {
+        const newCategory = new Category(req.body);
+        const result = await newCategory.save();
+        res.status(200).json({ status: true, category: result });
+    } catch (error) {
+        res.status(500).json({ status: false, message: "Đã xảy ra lỗi khi them category", error });
+    }
+});
+
+
 // xoa 1 category
-// DELETE: http://localhost:6000/category/:categoryId
-router.delete("/:categoryId", async (req, res) => {
+// DELETE: http://localhost:5000/category/delete/:categoryId
+router.delete("/delete/:categoryId", async (req, res) => {
     try {
         const categoryId = req.params.categoryId;
         if (!categoryId) {
