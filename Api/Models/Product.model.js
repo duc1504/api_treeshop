@@ -8,6 +8,7 @@ const productSchema = new mongoose.Schema({
   description: { type: String },
   gallery: { type: [String] },
   category_id: { type: String },
+  deleted: { type: Boolean, default: false },
   // category_id: { type: mongoose.Schema.Types.ObjectId, ref: "Category" },
 });
 
