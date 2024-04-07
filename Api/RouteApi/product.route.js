@@ -58,7 +58,9 @@ router.get("/search", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     // lấy tất cả sản phẩm có deteted = false và sort theo createdAt
-    const products = await Product.find({ deleted: false });
+    const products = await Product.find({ deleted: false }.sort({
+      createdAt: -1,
+    }));
     // const products = await Product.find({ deleted: false });
     // Trả về danh sách các sản phẩm
     res.status(200).json({ status: true, products });
