@@ -1,4 +1,3 @@
-const inlineCss = require('inline-css');
 
 const htmlText = (name, email) => {
     return `
@@ -69,9 +68,6 @@ const htmlText = (name, email) => {
       </div>
     </body>
     </html>
-    
-    
-    
     `
 }
 
