@@ -23,7 +23,7 @@ router.patch("/edit/:categoryId", async (req, res) => {
     try {
         const categoryId = req.params.categoryId;
         const updates = req.body;
-        console.log(updates);
+       
         if (!categoryId || !Object.values(updates).every((value) => value !== "")) {
             res.status(404).json({
                 status: false,
