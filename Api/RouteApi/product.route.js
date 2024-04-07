@@ -57,11 +57,10 @@ router.get("/search", async (req, res) => {
 // GET: http://localhost:5000/product
 router.get("/", async (req, res) => {
   try {
-    // lấy tất cả sản phẩm có deteted = false và sort theo createdAt
-    const products = await Product.find({ deleted: false }.sort({
+    // lấy tất cả sản phẩm có deleted = false và sort theo createdAt
+    const products = await Product.find({ deleted: false }).sort({
       createdAt: -1,
-    }));
-    // const products = await Product.find({ deleted: false });
+    });
     // Trả về danh sách các sản phẩm
     res.status(200).json({ status: true, products });
   } catch (error) {
@@ -72,6 +71,7 @@ router.get("/", async (req, res) => {
     });
   }
 });
+
 
 // Lấy tất cả các sản phẩm dựa trên category_id
 // GET  http://localhost:5000/product/category/:categoryId
